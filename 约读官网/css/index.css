@@ -1,0 +1,1236 @@
+html,
+body {
+  width: 100%;
+  font-size: 16px;
+}
+.indexWrap {
+  width: 100%;
+}
+.indexWrap .head {
+  width: 100%;
+  height: 85px;
+  background-color: #000;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.indexWrap .head .head-item {
+  width: 1200px;
+  height: 85px;
+  margin: 0 auto;
+}
+.indexWrap .head .head-item .logo {
+  display: block;
+  float: left;
+}
+.indexWrap .head .head-item .logo img {
+  height: 75px;
+  margin-top: 5px;
+}
+.indexWrap .head .head-item .head-nav {
+  float: right;
+  height: 100%;
+}
+.indexWrap .head .head-item .head-nav li {
+  display: inline-block;
+}
+.indexWrap .head .head-item .head-nav li a {
+  display: block;
+  padding: 0 23px;
+  height: 85px;
+  line-height: 85px;
+  color: #fff ;
+}
+.indexWrap .head .head-item .head-nav .activeNav a {
+  background-color: #d71518;
+}
+.indexWrap .foot {
+  width: 100%;
+  height: 300px;
+  background-color: #333;
+}
+.indexWrap .foot .foot-item {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 25px;
+}
+.indexWrap .foot .foot-item .footList {
+  float: left;
+  width: 400px;
+  height: 210px;
+  color: #fff ;
+}
+.indexWrap .foot .foot-item .foot-item-left h2 {
+  font-size: 24px;
+  color: #d71518;
+  margin-bottom: 10px;
+}
+.indexWrap .foot .foot-item .foot-item-left h2 span {
+  display: block;
+  font-size: 14px;
+  color: #999 ;
+}
+.indexWrap .foot .foot-item .foot-item-left p {
+  font-size: 16px;
+  color: #fff ;
+  line-height: 30px;
+}
+.indexWrap .foot .foot-item .foot-item-middle h3 {
+  font-size: 16px ;
+  margin-bottom: 20px;
+}
+.indexWrap .foot .foot-item .foot-item-middle .linkA {
+  overflow: hidden;
+}
+.indexWrap .foot .foot-item .foot-item-middle .linkA a {
+  width: 48%;
+  display: inline-block;
+  color: #fff ;
+  line-height: 28px;
+  font-size: 14px;
+}
+.indexWrap .foot .foot-item .foot-item-middle .linkA a:hover {
+  color: #d71518;
+}
+.indexWrap .foot .foot-item .foot-item-right {
+  text-align: right;
+  padding-right: 55px;
+}
+.indexWrap .foot .foot-item .foot-item-right p {
+  display: inline-block;
+  width: 180px;
+  text-align: center ;
+  font-size: 14px;
+}
+.indexWrap .foot .foot-item .foot-item-right p img {
+  width: 160px;
+  height: 160px;
+}
+.indexWrap .foot .foot-item .foot-item-right p span {
+  display: block;
+}
+.indexWrap .foot .foot-item .copyRight {
+  color: #999 ;
+  font-size: 14px;
+}
+.indexWrap .section {
+  padding-top: 85px;
+}
+.swiper-container {
+  width: 100%;
+}
+.swiper-slide {
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination-bullet-active {
+  background-color: #d71518;
+}
+.title {
+  height: 140px;
+  background: url('../img/titlebg.png') no-repeat;
+  background-size: 240px 140px;
+  color: #fff ;
+  padding: 35px 0 0 40px;
+}
+.title .chines {
+  font-size: 28px;
+}
+.title .english {
+  font-size: 19px;
+  letter-spacing: 2.3px;
+}
+.title .english i {
+  color: #d71518;
+  font-style: normal;
+}
+@-webkit-keyframes rotationINNER {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotationOUT {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+.section-index .swiper-container .swiper-slide img {
+  width: 100%;
+}
+.section-index .webare-study {
+  width: 1200px;
+  margin: 60px auto;
+}
+.section-index .webare-study h2 {
+  width: 490px;
+  height: 95px;
+  background: url('../img/web.png') no-repeat;
+  background-size: 100% 100%;
+  text-align: right;
+  padding-top: 35px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.section-index .webare-study h2 span {
+  display: inline-block;
+  background-color: #fff ;
+  color: #d71518;
+  letter-spacing: 3px;
+}
+.section-index .webare-study .study-Icon {
+  overflow: hidden;
+}
+.section-index .webare-study .study-Icon .study-ANI {
+  float: left;
+  width: 40%;
+  height: 365px;
+  margin: 20px 0 0 85px;
+}
+.section-index .webare-study .study-Icon .study-Icon-left {
+  width: 370px;
+  height: 370px;
+  position: relative;
+}
+.section-index .webare-study .study-Icon .study-Icon-left:hover .outer {
+  animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -o-animation-play-state: paused;
+}
+.section-index .webare-study .study-Icon .study-Icon-left:hover .center {
+  animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -o-animation-play-state: paused;
+}
+.section-index .webare-study .study-Icon .study-Icon-left .outer {
+  width: 375px;
+  min-height: 375px;
+  border-radius: 50%;
+  position: absolute;
+  background: url('../img/disc_otuside.png') no-repeat;
+  background-size: 100% 100%;
+  animation: rotationOUT 50s linear infinite;
+  -moz-animation: rotationOUT 50s linear infinite;
+  -webkit-animation: rotationOUT 50s linear infinite;
+  -o-animation: rotationOUT 50s linear infinite;
+  animation-play-state: running;
+  -moz-animation-play-state: running;
+  -webkit-animation-play-state: running;
+  -o-animation-play-state: running;
+}
+.section-index .webare-study .study-Icon .study-Icon-left .center {
+  width: 287px;
+  height: 287px;
+  border-radius: 50%;
+  position: absolute;
+  top: 44px;
+  left: 44px;
+  background: url('../img/disc_middle.png') no-repeat;
+  background-size: 100% 100%;
+  animation: rotationINNER 30s linear infinite;
+  -moz-animation: rotationINNER 30s linear infinite;
+  -webkit-animation: rotationINNER 30s linear infinite;
+  -o-animation: rotationINNER 30s linear infinite;
+  animation-play-state: running;
+  -moz-animation-play-state: running;
+  -webkit-animation-play-state: running;
+  -o-animation-play-state: running;
+}
+.section-index .webare-study .study-Icon .study-Icon-left .inner {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid #d71518;
+  border-radius: 50%;
+  position: absolute;
+  top: 137.5px;
+  left: 137.5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #d71518;
+  padding-top: 25px;
+  background-color: #fff ;
+}
+.section-index .webare-study .study-Icon .study-Icon-right {
+  float: right;
+  width: 50%;
+}
+.section-index .webare-study .study-Icon .study-Icon-right .study-list {
+  overflow: hidden;
+}
+.section-index .webare-study .study-Icon .study-Icon-right .study-list h3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  color: #fff ;
+  font-size: 20px;
+  float: left;
+  position: relative;
+}
+.section-index .webare-study .study-Icon .study-Icon-right .study-list .list-box {
+  padding: 20px 0 20px 40px;
+  overflow: hidden;
+}
+.section-index .webare-study .study-Icon .study-Icon-right .study-list .list-box div {
+  opacity: 0;
+  position: relative;
+}
+.section-index .webare-study .study-Icon .study-Icon-right .study-list .list-box h4 {
+  font-size: 18px;
+  color: #d71518;
+  margin-bottom: 20px;
+}
+.section-index .webare-study .study-Icon .study-Icon-right .study-list .list-box p {
+  font-size: 15px;
+  color: #333333 ;
+}
+.section-index .webare-study .study-Icon .study-Icon-right .study-list .c1 {
+  background-color: #e9888a;
+}
+.section-index .webare-study .study-Icon .study-Icon-right .study-list .c2 {
+  background-color: #e46264;
+}
+.section-index .webare-study .study-Icon .study-Icon-right .study-list .c3 {
+  background-color: #d71518;
+}
+.product-service {
+  width: 100%;
+  height: 830px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 40px;
+}
+.product-service .productBg {
+  width: 100%;
+  height: 830px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.product-service .productBg img {
+  width: 100%;
+  height: 100%;
+}
+.product-service .title {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.product-service .product-guide {
+  width: 100%;
+  height: 580px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding-top: 200px;
+}
+.product-service .product-guide ul {
+  overflow: hidden;
+  text-align: center;
+}
+.product-service .product-guide ul li {
+  width: 200px;
+  opacity: 0;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: -10px;
+}
+.product-service .product-guide ul li img {
+  width: 200px;
+}
+.product-service .product-guide ul li img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.product-service .product-guide ul li:first-child {
+  margin-left: 0;
+}
+.product-service .product-nav-content {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.product-service .product-nav-content .commonHeight {
+  height: 400px;
+}
+.product-service .product-nav-content .nav-branch {
+  width: 100%;
+}
+.product-service .product-nav-content .nav-branch ul {
+  text-align: center;
+}
+.product-service .product-nav-content .nav-branch ul li {
+  width: 240px;
+  height: 40px;
+  background: url('../img/pro-init.png') no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  color: #d71518;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+.product-service .product-nav-content .nav-branch ul .active-branch-nav {
+  background: url('../img/pro-active.png') no-repeat;
+  background-size: 100% 100%;
+  color: #fff ;
+}
+.product-service .product-nav-content .team-Assessment {
+  padding-top: 15px;
+}
+.product-service .product-nav-content .team-Assessment ul {
+  text-align: center;
+}
+.product-service .product-nav-content .team-Assessment ul li {
+  width: 130px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+}
+.product-service .product-nav-content .team-Assessment ul li img {
+  width: 75px;
+  height: 75px;
+}
+.product-service .product-nav-content .team-Assessment ul li div {
+  width: 100%;
+  height: 225px;
+  background: url('../img/product/Team_Box.png') no-repeat;
+  background-size: 100% 100%;
+  padding: 45px 10px 0;
+  margin-top: -30px;
+}
+.product-service .product-nav-content .team-Assessment ul li div h5 {
+  color: #d71518;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.product-service .product-nav-content .team-Assessment ul li div p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  text-align: left;
+}
+.product-service .product-nav-content .team-Assessment .arrow-down {
+  width: 40px;
+  height: 60px;
+  margin: 10px auto;
+  display: block;
+}
+.product-service .product-nav-content .team-Assessment .Summary {
+  display: inline-block;
+  width: auto;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  background-color: #d71518;
+  border-radius: 10px;
+}
+.product-service .product-nav-content .team-Assessment .Summary p {
+  font-size: 16px;
+  color: #fff ;
+  line-height: 1.8;
+}
+.product-service .product-nav-content .space-Device {
+  width: 1000px;
+  margin: 0 auto;
+}
+.product-service .product-nav-content .space-Device .space-devBox {
+  width: 100%;
+  height: 460px;
+  background: url('../img/product/Background_Space_Photo.png') no-repeat;
+  background-size: 100% 100%;
+  text-align: left;
+  color: #fff;
+}
+.product-service .product-nav-content .space-Device h5 {
+  display: inline-block;
+  width: auto;
+  max-width: 500px;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #d71518;
+  padding: 5px 15px;
+  margin: 35px 0 60px;
+}
+.product-service .product-nav-content .space-Device .space-box {
+  padding: 0 230px;
+  font-size: 18px;
+}
+.product-service .product-nav-content .space-Device .space-box p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.product-service .product-nav-content .reading-Resources .Resources-item {
+  overflow: hidden;
+}
+.product-service .product-nav-content .reading-Resources .Resources-item .titletop {
+  font-size: 14px;
+}
+.product-service .product-nav-content .reading-Resources .Resources-item .titletop span {
+  font-size: 22px;
+  color: #d71518;
+}
+.product-service .product-nav-content .reading-Resources .E-book .item-left {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.product-service .product-nav-content .reading-Resources .E-book .item-left ol {
+  padding: 60px 60px 0 0;
+}
+.product-service .product-nav-content .reading-Resources .E-book .item-left ol li {
+  margin-bottom: 25px;
+  text-align: right;
+}
+.product-service .product-nav-content .reading-Resources .E-book .item-left ol li .bottom {
+  display: inline-block;
+  font-size: 16px;
+  background-color: #999999 ;
+  padding: 0 10px;
+  line-height: 30px;
+  color: #fff ;
+}
+.product-service .product-nav-content .reading-Resources .E-book .item-right {
+  float: right;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.product-service .product-nav-content .reading-Resources .E-book .item-right p {
+  width: 240px;
+  height: 180px;
+  position: absolute;
+}
+.product-service .product-nav-content .reading-Resources .E-book .item-right .lineborder {
+  border: 2px solid #d71518;
+  top: 90px;
+  left: 60px;
+}
+.product-service .product-nav-content .reading-Resources .E-book .item-right .text {
+  background-color: #d71518;
+  color: #fff ;
+  text-indent: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 20px;
+  top: 120px;
+  left: 90px;
+  text-align: left;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware .titletop {
+  color: #d71518;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol {
+  height: 100%;
+  padding-top: 25px;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol li {
+  width: 400px;
+  height: 100%;
+  font-size: 14px;
+  color: #999999 ;
+  float: left;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol .Media-left {
+  text-align: right;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol .Media-left .media-left-des {
+  display: inline-block;
+  width: 160px;
+  margin-bottom: 120px;
+  text-align: left;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol .Media-left div {
+  display: block;
+  width: 160px;
+  text-align: left;
+  margin: 0 0 0 auto;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol .Media-middle div {
+  width: 260px;
+  height: 250px;
+  background: url('../img/product/RR_satellite.png') no-repeat;
+  background-size: 100% 100%;
+  margin: 40px auto 0;
+  padding: 75px 30px 0 100px;
+  text-align: left;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol .Media-middle div h5 {
+  color: #d71518;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol .Media-middle div p {
+  color: #666666  ;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol .Media-right {
+  text-align: left;
+}
+.product-service .product-nav-content .reading-Resources .Media-Courseware ol .Media-right .right-top {
+  margin-bottom: 125px;
+}
+.product-service .product-nav-content .reading-Resources .Media-Content ol {
+  width: 780px;
+  margin: 100px auto 20px;
+  overflow: hidden;
+}
+.product-service .product-nav-content .reading-Resources .Media-Content ol li {
+  float: left;
+  width: 180px;
+  height: 180px;
+  background-color: #fdf3f3 ;
+  text-align: left;
+  padding: 20px;
+}
+.product-service .product-nav-content .reading-Resources .Media-Content ol li img {
+  width: 38px;
+  height: 38px;
+}
+.product-service .product-nav-content .reading-Resources .Media-Content ol li h5 {
+  color: #d71518;
+  font-size: 16px;
+  line-height: 2.5;
+}
+.product-service .product-nav-content .reading-Resources .Media-Content ol li p {
+  font-size: 14px;
+  color: #999999 ;
+  line-height: 1.5;
+}
+.product-service .product-nav-content .reading-Resources .Media-Content ol .mr {
+  margin: 0 10px;
+}
+.product-service .product-nav-content .reading-Resources .Media-Content .textBtn {
+  width: 780px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff ;
+  font-size: 20px;
+  margin: 0 auto;
+  background-color: #d71518;
+}
+.product-service .product-nav-content .study-Course .guideTo-Read {
+  width: 1120px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.product-service .product-nav-content .study-Course .guideTo-Read .book {
+  display: block;
+  width: 115px;
+  height: 115px;
+  margin-left: 908.5px;
+}
+.product-service .product-nav-content .study-Course .guideTo-Read ul {
+  width: 1120px;
+  margin: 0 auto;
+  min-height: 200px;
+  overflow: hidden;
+}
+.product-service .product-nav-content .study-Course .guideTo-Read ul li {
+  float: left;
+  width: 160px;
+  text-align: left;
+  background: url('../img/product/LC_BullLine.png') no-repeat left top;
+  background-size: 100% 12px;
+}
+.product-service .product-nav-content .study-Course .guideTo-Read ul li h5 {
+  color: #d71518;
+  font-size: 16px;
+  margin: 20px 0 15px;
+}
+.product-service .product-nav-content .study-Course .guideTo-Read ul li p {
+  font-size: 14px;
+  color: #999  ;
+}
+.product-service .product-nav-content .study-Course .guideTo-Read ul li:last-child {
+  background: url('../img/product/LC_Bullets.png') no-repeat left top;
+  background-size: 12px 12px;
+}
+.product-service .product-nav-content .study-Course .live-Broadcast {
+  padding-top: 50px;
+}
+.product-service .product-nav-content .study-Course .live-Broadcast ul {
+  width: 860px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.product-service .product-nav-content .study-Course .live-Broadcast ul li {
+  float: left;
+}
+.product-service .product-nav-content .study-Course .live-Broadcast ul li a {
+  display: block;
+  width: 215px;
+  height: 160px;
+}
+.product-service .product-nav-content .study-Course .live-Broadcast ul .Broadcast-img a img {
+  width: 100%;
+  height: 100%;
+}
+.product-service .product-nav-content .study-Course .live-Broadcast ul .Broadcast-text a {
+  background-color: #d71518;
+  font-size: 16px;
+  color: #fff ;
+  text-align: center;
+  padding-top: 60px;
+}
+.product-service .product-nav-content .study-Course .depth-Read {
+  overflow: hidden;
+  padding: 50px 210px 0;
+}
+.product-service .product-nav-content .study-Course .depth-Read .depth-left {
+  float: left;
+  position: relative;
+  width: 70%;
+}
+.product-service .product-nav-content .study-Course .depth-Read .depth-left img {
+  width: 270px;
+  height: 370px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.product-service .product-nav-content .study-Course .depth-Read .depth-left .textBox {
+  width: 400px;
+  height: 140px;
+  color: #fff ;
+  background-color: #d71518;
+  padding: 20px;
+  position: absolute;
+  top: 160px;
+  left: 60px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.product-service .product-nav-content .study-Course .depth-Read .depth-right {
+  float: right;
+  position: relative;
+  width: 30%;
+}
+.product-service .product-nav-content .study-Course .depth-Read .depth-right ol li {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.product-service .product-nav-content .study-Course .depth-Read .depth-right ol li span {
+  display: block;
+  float: left;
+}
+.product-service .product-nav-content .study-Course .depth-Read .depth-right ol li .depth-text {
+  width: 160px;
+  text-align: left;
+  color: #666;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.product-service .product-nav-content .study-Course .depth-Read .depth-right ol li .num {
+  width: 74px;
+  color: #ee9496 ;
+  font-size: 68px;
+  line-height: 68px;
+}
+.product-service .product-nav-content .Reading-Activities .item1 {
+  width: 100%;
+  padding: 0 90px;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-left {
+  width: 530px;
+  padding-top: 25px;
+  float: left;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-left .left-img {
+  width: 320px;
+  height: 355px;
+  float: left;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-left .left-img img {
+  width: 100%;
+  height: 235px;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-left .left-img p {
+  height: 120px;
+  color: #fff ;
+  background-color: #d71518;
+  padding: 20px;
+  text-align: left;
+  line-height: 1.5;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-left .left-arrow {
+  margin-left: 25px;
+  float: left;
+  padding-top: 80px;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-left .left-arrow p {
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: url('../img/product/RA_Box.png') no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  color: #d71518;
+  font-size: 18px;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-right {
+  width: 490px;
+  height: 400px;
+  text-align: right;
+  float: right;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-right img {
+  width: 256px;
+  margin-top: -70px;
+  float: right;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-right ul {
+  float: right;
+  margin: -20px 10px 0 0;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-right ul li {
+  font-size: 14px;
+  color: #999 ;
+  margin-bottom: 36px;
+}
+.product-service .product-nav-content .Reading-Activities .item1 .item1-right ul li h5 {
+  font-size: 15px;
+  color: #d71518;
+}
+.product-service .product-nav-content .Reading-Activities .item2 {
+  padding-top: 50px;
+}
+.product-service .product-nav-content .Reading-Activities .item2 .read-Aloud {
+  width: 840px;
+  margin: auto;
+  overflow: hidden;
+}
+.product-service .product-nav-content .Reading-Activities .item2 .read-Aloud img {
+  float: left;
+  position: relative;
+  margin-right: 20px;
+}
+.product-service .product-nav-content .Reading-Activities .item2 .read-Aloud p {
+  overflow: hidden;
+  text-align: left;
+  color: #666;
+}
+.product-service .product-nav-content .Reading-Activities .item2 .read-Aloud p span {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 2.0;
+}
+.product-service .product-nav-content .Reading-Activities .item3 {
+  padding-top: 55px;
+}
+.product-service .product-nav-content .Reading-Activities .item3 .mainAbout-Title {
+  width: 500px;
+  margin: 0 auto;
+}
+.product-service .product-nav-content .Reading-Activities .item3 .mainAbout-Title .ICON {
+  height: 150PX;
+  background: url('../img/product/RA_Two.png') no-repeat;
+  background-size: 100% 100%;
+}
+.product-service .product-nav-content .Reading-Activities .item3 .mainAbout-Title .ICON span {
+  display: inline-block;
+  width: 100px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  color: #fff ;
+  font-size: 18px;
+}
+.product-service .product-nav-content .Reading-Activities .item3 .mainAbout-Title .mainAbout-text {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #666 ;
+  line-height: 1.6;
+  color: #9699 9;
+}
+.product-service .product-nav-content .Reading-Activities .item3 .mainAbout-Title .mainAbout-left {
+  text-align: left;
+  float: left;
+  width: 60%;
+}
+.product-service .product-nav-content .Reading-Activities .item3 .mainAbout-Title .mainAbout-right {
+  text-align: right;
+  float: right;
+  width: 40%;
+}
+.product-service .product-nav-content .Reading-Activities .nav-branch ul li {
+  font-size: 15px;
+}
+.product-service .product-nav-content .Value-addedService .Online-publishing {
+  padding-top: 25px;
+}
+.product-service .product-nav-content .Value-addedService .Online-publishing p,
+.product-service .product-nav-content .Value-addedService .Online-publishing img {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.product-service .product-nav-content .Value-addedService .Online-publishing p {
+  width: 150px;
+  text-align: left;
+  font-size: 14px;
+  color: #666;
+  margin-top: 50px;
+  line-height: 1.6;
+}
+.product-service .product-nav-content .Value-addedService .Online-publishing p span {
+  display: block;
+  margin-bottom: 20px;
+}
+.product-service .product-nav-content .Value-addedService .Publicity {
+  padding-top: 30px;
+}
+.product-service .product-nav-content .Value-addedService .Publicity .pubBox {
+  width: 620px;
+  height: 360px;
+  margin: 0 auto;
+  position: relative;
+}
+.product-service .product-nav-content .Value-addedService .Publicity .pubBox img {
+  width: 455px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.product-service .product-nav-content .Value-addedService .Publicity .pubBox p {
+  width: 315px;
+  height: 220px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.product-service .product-nav-content .Value-addedService .Publicity .pubBox p span {
+  display: block;
+}
+.product-service .product-nav-content .Value-addedService .Publicity .pubBox p .mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #d71518;
+  opacity: 0.8;
+}
+.product-service .product-nav-content .Value-addedService .Publicity .pubBox p .pub-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: #fff ;
+  font-size: 16px;
+  line-height: 2.0;
+  padding: 46px 50px;
+  text-align: left;
+  z-index: 1;
+}
+.product-service .product-nav-content .Value-addedService .Study-Report {
+  font-size: 18px;
+  color: #666 ;
+}
+.product-service .product-nav-content .Value-addedService .Study-Report p {
+  line-height: 2.0;
+  margin-bottom: 30px;
+}
+.product-service .product-nav-content .Value-addedService .Reward p {
+  display: inline-block;
+  text-align: left;
+  margin: 100px 45px 0;
+  vertical-align: middle;
+}
+.product-service .product-nav-content .Value-addedService .Reward .reward-left {
+  width: 180px;
+  min-height: 180px;
+  line-height: 1.5;
+  padding: 20px;
+  background-color: #d71518;
+  color: #fff ;
+  font-size: 15px;
+}
+.product-service .product-nav-content .Value-addedService .Reward .reward-right span {
+  display: block;
+  font-size: 15px;
+  color: #666 ;
+  line-height: 30px;
+  background: url('../img/product/LC_Bullets.png') no-repeat left center;
+  background-size: 15px 15px;
+  padding-left: 25px;
+}
+.product-service .product-nav {
+  width: 100%;
+  height: 150px;
+  background-color: #444444 ;
+  position: relative;
+  z-index: 1;
+}
+.product-service .product-nav .nav-item {
+  width: 1200px;
+  height: 150px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.product-service .product-nav .nav-item li {
+  width: 200px;
+  height: 150px;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.product-service .product-nav .nav-item li span {
+  display: block;
+}
+.product-service .product-nav .nav-item li .caret {
+  display: inline-block;
+  margin-top: 0px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent ;
+  border-bottom: 10px solid transparent ;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -webkit-transform: rotate(45deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(45deg);
+  transform-origin: 20px 0;
+  -ms-transform-origin: 20px 0;
+  -moz-transform-origin: 20px 0;
+  /* Firefox */
+  -webkit-transform-origin: 20px 0;
+  /* Safari 和 Chrome */
+  -o-transform-origin: 20px 0;
+}
+.product-service .product-nav .nav-item li .nav-icon {
+  width: 70px;
+  height: 70px;
+  margin: 10px auto;
+  border: 2px solid  #fff ;
+  border-radius: 50%;
+  color: #fff ;
+  line-height: 70px;
+  text-align: center;
+}
+.product-service .product-nav .nav-item li .nav-icon i {
+  font-size: 30px;
+}
+.product-service .product-nav .nav-item li .nav-text {
+  color: #fff ;
+}
+.product-service .product-nav .nav-item .active-pro-nav .caret {
+  border-right: 10px solid #fff ;
+  border-bottom: 10px solid #fff ;
+}
+.product-service .product-nav .nav-item .active-pro-nav .nav-icon {
+  background-color: #fff ;
+  color: #454545 ;
+}
+.company-introduction {
+  width: 100%;
+  height: 920px;
+  padding: 50px 0 0;
+  position: relative;
+}
+.company-introduction .title {
+  width: 1200px;
+  margin: 0 auto;
+}
+.company-introduction .company-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.company-introduction .company-desd {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.company-introduction .introduction-left {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0 0 165px;
+  position: relative;
+  z-index: 10;
+  opacity: 0;
+}
+.company-introduction .introduction-left img {
+  width: 210px;
+  height: 95px;
+}
+.company-introduction .introduction-left p {
+  width: 295px;
+}
+.company-introduction .introduction-left .company-desd {
+  color: #666666 ;
+}
+.company-introduction .introduction-left a {
+  display: block;
+  width: 160px;
+  height: 40px ;
+  font-size: 16px;
+  border: 1px solid #d71518;
+  line-height: 40px;
+  text-align: center;
+  color: #d71518;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.company-introduction .introduction-right {
+  height: 920px;
+  background: url('../img/Background_Company.png') no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.company-introduction .introduction-right .right-descript {
+  width: 350px;
+  position: absolute;
+}
+.company-introduction .introduction-right .right-descript p {
+  color: #fff ;
+}
+.company-introduction .introduction-right img {
+  position: absolute;
+  bottom: 20px;
+}
+.news-center-wrap {
+  background-color: #f2f2f2 ;
+  width: 100%;
+  height: auto;
+}
+.news-center {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto ;
+  padding: 50px 0 120px;
+}
+.news-center .title {
+  margin-bottom: 50px;
+}
+.news-center .news-slide .swiper-container {
+  padding: 10px 30px;
+}
+.news-center .news-slide .swiper-container .swiper-wrapper {
+  height: 520px;
+}
+.news-center .news-slide .swiper-container .swiper-wrapper .swiper-slide {
+  display: block;
+  width: 360px;
+  height: 480px;
+}
+.news-center .news-slide .swiper-container .swiper-wrapper .swiper-slide:hover {
+  box-shadow: 0px 0px 15px #828282;
+}
+.news-center .news-slide .swiper-container .swiper-wrapper .swiper-slide a {
+  display: block;
+  width: 100%;
+  padding: 13px;
+}
+.news-center .news-slide .swiper-container .swiper-wrapper .swiper-slide a img {
+  display: block;
+  width: 340px;
+  height: 280px;
+  margin-bottom: 30px;
+}
+.news-center .news-slide .swiper-container .swiper-wrapper .swiper-slide a .slide-title {
+  font-size: 18px;
+  color: #d71518;
+}
+.news-center .news-slide .swiper-container .swiper-wrapper .swiper-slide a .slide-des {
+  font-size: 14px;
+  line-height: 24px;
+  min-height: 100px;
+}
+.news-center .news-slide .swiper-container .swiper-wrapper .swiper-slide a .slide-date {
+  font-size: 12px;
+  color: #c3c3c3 ;
+  margin-top: 10px;
+}
+.news-center .swiper-pagination-bullets {
+  bottom: 0;
+}
+@media screen and (max-width: 1200px) {
+  .introduction-right {
+    width: 1200px;
+  }
+  .introduction-right .right-descript {
+    bottom: 240px;
+    right: 240px;
+  }
+  .introduction-right img {
+    width: 600px;
+    right: 200px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .introduction-right {
+    width: 100%;
+  }
+  .introduction-right .right-descript {
+    bottom: 240px;
+    right: 17%;
+  }
+  .introduction-right img {
+    width: 600px;
+    right: 200px;
+    right: 15%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .introduction-right {
+    width: 100%;
+  }
+  .introduction-right .right-descript {
+    bottom: 320px;
+    right: 16%;
+  }
+  .introduction-right img {
+    width: 750px;
+    right: 375px;
+    right: 10%;
+  }
+}
